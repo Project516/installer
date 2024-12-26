@@ -20,7 +20,7 @@ function print_info_header() {
 # Set global configuration variables
 function set_configuration() {
     # jri
-    JDK_URL="https://ci.adoptopenjdk.net/view/ev3dev/job/openjdk11_build_ev3_linux/lastSuccessfulBuild/artifact/build/jdk-ev3.tar.gz"
+    JDK_URL="https://ci.adoptium.net/view/ev3dev/job/eljbuild/job/stretch-bleeding/lastStableBuild/artifact/build/jdk-ev3.tar.gz"
     JDK_DIR="/opt/jdk-11-ev3"
 
     # packages
